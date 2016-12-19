@@ -1,0 +1,179 @@
+html,body {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 75px;
+}
+
+h2{
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 35px;
+}
+
+p{
+	font-family: 'Josefin Sans', sans-serif
+}
+
+/*navigation*/
+a{
+	color:black;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+footer{
+	width:100%;
+}
+
+
+
+.main ul {
+    background:white;
+    text-align:right;
+    padding: 10px;
+    top:10px;
+    right:10px;
+    height:50px;
+    width:100%;
+    float:right;
+}
+
+.main li{
+    display:inline-block;
+    margin-left:15px;
+    font: 20px;
+}
+
+.main img{
+	position:absolute;
+	padding:10px;
+	left:10px;
+	top:10px;
+	height:50px;
+	width:50px;
+}
+
+
+.join{
+	left:75px;
+	top:20px;
+	height:30px;
+	width:150px;
+	background-color: black;
+	color:white;
+	text-align: center;
+	border-radius: 15px;
+    padding: 10px;
+}
+
+.landing{
+	text-align: center;
+}
+
+.landing img{
+	height:650px;
+	width:650px;
+}
+
+.landing2{
+	text-align: center;
+}
+
+.landing2 img{
+	height:650px;
+	width:650px;
+	opacity:.25;
+}
+
+.title{
+	position: absolute;
+	text-align: right;
+	background-color: black;
+	padding-right:40px;
+    height:relative;
+	width:75%;
+	top:175px;
+	opacity: 0.75;
+	color: white;
+}
+
+
+.mission{
+	position: absolute;
+	text-align: left;
+	background-color: black;
+    height:relative;
+	width:75%;
+	margin-left:25%;
+	top:400px;
+	opacity: 0.75;
+	color: white;
+}
+
+.mission p{
+	padding-left:40px;
+	max-width:620px;
+	font-size:32px;
+
+}
+
+.info{
+	position: absolute;
+	background-color: black;
+	width:100%;
+	opacity: 0.75;
+	color: white;
+	font-size:12px;
+	line-height: 10px;
+}
+
+.info p{
+    display:inline-block;
+    padding: 50px;
+    text-align: center;
+    width: 20%;
+    line-height: 1.1;
+}
+
+
+
+
+
+@media (max-width: 850px) {
+.landing img{
+	height:400px;
+	width:400px;
+    }
+.landing2 img{
+	height:400px;
+	width:400px;
+}	
+.mission p{
+   	font-size: 16px;
+    }
+.main a{
+	font-size:14px;    
+	}
+.title h1{
+    font-size: 35px;
+    }
+.info p{
+	width:20%;
+}
+}
+@media (max-width: 550px) {
+.main li{
+	display: block;
+	line-height: 20px;
+}
+}
+
+
+
