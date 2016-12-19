@@ -1,0 +1,130 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	
+
+}
+
+li { 
+	font-family: 'Oswald', sans-serif;
+
+}
+
+a{
+	color: #43565d;
+
+}
+
+h2{
+	text-align: center;
+}
+
+
+.text{
+	text-align: center;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 10px;
+}
+
+.equip{
+	text-align:center;
+	font-size: 45px;
+	margin-bottom:50px;
+	padding-top: 100px
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+.wrapper h2{
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 35px;
+}
+
+.hero{
+	background-image: url(main.jpg);	
+	background-size: cover;
+	height: 300px;
+	position: relative;
+	margin-bottom: 5%;
+	margin-top:100px;
+}
+
+.hero h1{
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	position: absolute;
+	top: 26%;
+	left: 38%;
+	font-size: 50pt;
+	background-color: rgba(0,0,0,.5);
+
+}
+
+.products{
+	margin: 50px 0;
+}
+
+
+}
+.product-text{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px;
+	
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.top-text{ 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	background background-image: url(weights.png);
+
+}
+.product h2{
+	position: relative;
+	font-weight: bold;
+	z-index: 1;
+	font-size: 20px;
+}
+.product-inner{
+	position: relative;
+	max-width: 250px;
+	margin: 25px auto
+}
+
+
+}
+
+.image{
+	height: 55px;
+	width: 55px;
+}
+
+img{
+	height: 200px;
+	width: 310px;
+
+
+}
+
+@media (max-width: 850px) {
+.equip h1{
+    font-size: 35px;
+    }
+
+
+
